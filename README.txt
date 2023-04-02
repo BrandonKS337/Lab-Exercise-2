@@ -23,3 +23,18 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+	App/Portfolio Image sources
+	DND dragons https://www.gamespot.com/gallery/dungeons-dragons-everything-you-need-to-play-and-how-to-level-up-your-gaming/2900-3933/
+
+	Child playing photo
+	https://greatstarttoquality.org/finding-child-care-preschool/	
+
+	Novice cook
+	Shutterstock.com
+
+	Tnt logo
+	tntcablecontractors.com
+
+	Color Picker
+	https://www.javatpoint.com/html-color-picker
