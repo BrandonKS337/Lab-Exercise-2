@@ -3,9 +3,11 @@ Absolutely FANTASTIC template and it is set up for free usage by entry level nov
 myself to take advantage of and gain inspiration off of.
 
 AMAZING transitions between different medias to show it operating on various device types and an overall
-simple layout that is as easy to understand and navigate as it is easy on the eyes.
+simple layout that is as easy to understand and navigate as it is easy on the eyes. (see line 10)
 
 Keeping the credits listed in the read me because the original art and design elements really deserve the acknowledgment.
+
+As a side note: Really need to learn how to code out that device selection tool they have on download page https://html5up.net/prologue. That is so sick!!
 
 
 Credits:
