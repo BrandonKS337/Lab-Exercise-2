@@ -38,3 +38,9 @@ Credits:
 
 	Color Picker
 	https://www.javatpoint.com/html-color-picker
+
+	music note
+	https://depositphotos.com/6098256/stock-illustration-neon-music-notes.html
+
+	work in progress sign
+	https://stock.adobe.com/search?k=work+in+progress+icon
