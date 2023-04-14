@@ -49,10 +49,14 @@ li {
   .mainbody {
     flex-direction: column;
   }
-  .Education {
-    flex-direction: column;
-    border: 1px solid rgb(19, 255, 3);
-  }
+.education {
+  flex-direction: column;
+}
+
+/*this should fix width but kills it instead */
+/* .school {
+  width: 100%;
+} */
   .educationlr {
     border: 1px solid red;
     text-align: center;
@@ -168,17 +172,24 @@ aside {
   /* height: auto; */
   border-bottom: 1px solid var(--clr-textright);
 }
-.Education {
+.education {
   display: flex;
+  /* flex-direction: column; */
   /* border: 2px solid black; */
   border-bottom: 1px solid var(--clr-textright);
-  justify-content: space between;
+  justify-content: space-evenly;
   gap: 15px;
 }
+
+/* This is how I want education to look but it ruins the responsive version */
+/* .school {
+  width: 33%;
+} */
+
 .educationlr {
   display: flex;
   flex-direction: row;
-  width: 33%;
+  /* width: 33%; */
   flex-wrap: wrap;
 }
 .skillsr {
