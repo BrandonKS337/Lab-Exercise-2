@@ -70,6 +70,8 @@ aside {
 .nav3,
 .nav4 {
   border-bottom: 1px solid var(--clr-textleft);
+  align-items: center;
+  justify-content: center;
 }
 .nav1,
 .nav2,
@@ -86,6 +88,7 @@ aside {
   justify-content: center;
   height: relative;
   width: auto;
+  align-items: center;
 }
 .nav4 {
   text-align: right;
