@@ -56,10 +56,6 @@ aside {
   border-radius: 50%;
   height: 8rem;
 }
-.leftTop {
-  position: sticky;
-}
-
 /* These are the nav bar segments */
 .icon {
   height: 30px;
@@ -148,20 +144,7 @@ li {
   text-transform: uppercase;
 }
 
-/* .contactLinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-  border-top: 1px solid black;
-  border-width: relative;
-  padding-bottom: 15px;
-  position: sticky;
-  top: 0px;
-  width: auto;
-  flex-wrap: wrap;
-  text-decoration: none;
-} */
+
 .smallIcons {
   height: 30px;
 }
@@ -170,28 +153,6 @@ a {
   gap: 2px;
   color: inherit;
 }
-/* .sectionHeader {
-  justify-content: center;
-  position: center;
-  z-index: 1;
-  
-  &:before {
-      border-top: 2px solid #dfdfdf;
-      content:"";
-      margin: 0 auto; this centers the line to the full width specified
-      position: absolute; positioning must be absolute here, and relative positioning must be applied to the parent
-      top: 50%; left: 0; right: 0; bottom: 0;
-      width: 95%;
-      z-index: -1;
-  }
-
-  span { 
-      to hide the lines from behind the text, you have to set the background color the same as the container 
-      background: #fff; 
-      padding: 0 15px; 
-  }
-} */
-
 h2.background {
   display: flex;
   justify-content: center;
@@ -262,7 +223,6 @@ h2.background {
     /* margin-bottom: 0vh; */
     margin-top: 1vh;
     align-self: center;
-    position: sticky;
   }
   .nav4 {
     border-bottom: 1px solid var(--clr-textleft);
