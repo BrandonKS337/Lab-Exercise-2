@@ -47,3 +47,4 @@ Credits:
 
 	section lines with line behind text:
 	https://codepen.io/ericrasch/pen/kWWzzk
+	https://codepen.io/frank-tielemans/pen/ePZdVN
