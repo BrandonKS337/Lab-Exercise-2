@@ -1,7 +1,7 @@
 :root {
   --clr-textleft: rgb(163, 189, 141);
   --clr-textright: rgb(53, 107, 10);
-  --clr-bkground: rgb(35, 35, 43);
+  --clr-bkground: #2d3033;
 }
 body {
   display: flex;
