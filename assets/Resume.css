@@ -36,7 +36,7 @@ li {
     justify-items: center;
     width: 90vw;
   }
-  .rightSide {
+  /* .rightSide { */
     /* flex-direction: column;
     color: var(--clr-textright);
     justify-content: start;
@@ -45,20 +45,20 @@ li {
     margin-right: 15vw; 
     padding-left: -15px;
     margin-left: 0px; */
-  }
+  /* } */
   .mainbody {
     flex-direction: column;
   }
   .Education {
     flex-direction: column;
-    border: 1px solid rgb(19, 255, 3);
+    /* border: 1px solid rgb(19, 255, 3); */
   }
   .educationlr {
     /* border: 1px solid red; */
     text-align: center;
     justify-content: center;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
   }
   .edLR {
     border: 1px solid rgb(23, 6, 253);
@@ -171,27 +171,23 @@ aside {
   border-bottom: 1px solid var(--clr-textright);
   padding-bottom: 3.5rem;
 }
-.education {
+.Education {
   display: flex;
-  /* flex-direction: column; */
+  /* flex-direction: row; */
   /* border: 2px solid black; */
   border-bottom: 1px solid var(--clr-textright);
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 15px;
   padding-bottom: 3.5rem;
 }
 
-/* This is how I want education to look but it ruins the responsive version */
-/* .school {
-  width: 33%;
-} */
-
-.educationlr {
+/* .educationlr {
   display: flex;
-  flex-direction: row;
-  /* width: 33%; */
+  flex-direction: column;
+  width: 33%;
   flex-wrap: wrap;
-}
+  
+} */
 .skills {
   display: flex;
   justify-content: space-evenly;
