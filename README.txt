@@ -44,3 +44,6 @@ Credits:
 
 	work in progress sign
 	https://stock.adobe.com/search?k=work+in+progress+icon
+
+	section lines with line behind text:
+	https://codepen.io/ericrasch/pen/kWWzzk
