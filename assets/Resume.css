@@ -199,9 +199,9 @@ aside {
 li {
   margin-bottom: 3px;
 }
-.card {
-  /* height: relative; */
-}
+/* .card {
+  height: relative;
+} */
 
 /* This part does the same as the gap property listed inside .skillslr */
 /* .skillslist {
