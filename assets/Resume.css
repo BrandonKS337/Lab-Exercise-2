@@ -51,7 +51,7 @@ li {
   }
   .Education {
     flex-direction: column;
-    /* border: 1px solid rgb(19, 255, 3); */
+    border: 1px solid rgb(19, 255, 3);
   }
   .educationlr {
     /* border: 1px solid red; */
@@ -171,14 +171,21 @@ aside {
   border-bottom: 1px solid var(--clr-textright);
   padding-bottom: 3.5rem;
 }
-.Education {
+.education {
   display: flex;
+  /* flex-direction: column; */
   /* border: 2px solid black; */
   border-bottom: 1px solid var(--clr-textright);
-  justify-content: space between;
+  justify-content: space-evenly;
   gap: 15px;
   padding-bottom: 3.5rem;
 }
+
+/* This is how I want education to look but it ruins the responsive version */
+/* .school {
+  width: 33%;
+} */
+
 .educationlr {
   display: flex;
   flex-direction: row;
