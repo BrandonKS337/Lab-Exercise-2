@@ -51,10 +51,10 @@ li {
   }
   .Education {
     flex-direction: column;
-    border: 1px solid rgb(19, 255, 3);
+    /* border: 1px solid rgb(19, 255, 3); */
   }
   .educationlr {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     justify-content: center;
     display: flex;
@@ -72,7 +72,7 @@ li {
     position: sticky;
   }
   .nav4 {
-    border-bottom: 1px solid var(--clr-textleft)
+    border-bottom: 1px solid var(--clr-textleft);
   }
 }
 
@@ -111,6 +111,7 @@ aside {
 .namePlate {
   height: 150px;
   border-bottom: 1px solid var(--clr-textright);
+  padding-bottom: 2rem;
 }
 
 /* This is the profile photo */
@@ -162,11 +163,13 @@ aside {
 .profile {
   /* height: 15vh; */
   border-bottom: 1px solid var(--clr-textright);
-  height: relative;
+  /* height: relative; */
+  padding-bottom: 3.5rem;
 }
 .workXP {
   /* height: auto; */
   border-bottom: 1px solid var(--clr-textright);
+  padding-bottom: 3.5rem;
 }
 .Education {
   display: flex;
@@ -174,19 +177,23 @@ aside {
   border-bottom: 1px solid var(--clr-textright);
   justify-content: space between;
   gap: 15px;
+  padding-bottom: 3.5rem;
 }
 .educationlr {
   display: flex;
   flex-direction: row;
-  width: 33%;
+  /* width: 33%; */
   flex-wrap: wrap;
 }
-.skillsr {
+.skills {
   display: flex;
-  /* justify-content: space-evenly; */
-  width: 40vw;
+  justify-content: space-evenly;
+  /* width: 40vw; */
   /* border: 1px solid black; */
   gap: 30px;
+  border-bottom: 1px solid var(--clr-textright);
+  padding-bottom: 3.5rem;
+  
 }
 
 li {
@@ -223,4 +230,46 @@ a {
   gap: 2px;
   color: inherit;
 }
+/* .sectionHeader {
+  justify-content: center;
+  position: center;
+  z-index: 1;
+  
+  &:before {
+      border-top: 2px solid #dfdfdf;
+      content:"";
+      margin: 0 auto; this centers the line to the full width specified
+      position: absolute; positioning must be absolute here, and relative positioning must be applied to the parent
+      top: 50%; left: 0; right: 0; bottom: 0;
+      width: 95%;
+      z-index: -1;
+  }
 
+  span { 
+      to hide the lines from behind the text, you have to set the background color the same as the container 
+      background: #fff; 
+      padding: 0 15px; 
+  }
+} */
+
+h2.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width: 45vw;
+  height: 5px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  top: -35px;
+  background: inherit;
+  font-size: 1em;
+  box-shadow: 15px 15px 15px -15px var(--clr-bkground),
+    -15px 15px 15px -15px var(--clr-bkground),
+    15px 0 15px -15px var(--clr-bkground),
+    -15px 0 15px -15px var(--clr-bkground);
+  /* shadow: 2px black; */
+  margin-bottom: 5px;
+}
