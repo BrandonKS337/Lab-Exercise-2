@@ -47,7 +47,7 @@ aside {
 .namePlate {
   height: 150px;
   border-bottom: 1px solid var(--clr-textright);
-  padding: 2.8rem;
+  padding-bottom: 2.8rem;
 }
 
 /* This is the profile photo */
