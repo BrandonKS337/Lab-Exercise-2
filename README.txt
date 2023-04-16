@@ -48,3 +48,7 @@ Credits:
 	section lines with line behind text:
 	https://codepen.io/ericrasch/pen/kWWzzk
 	https://codepen.io/frank-tielemans/pen/ePZdVN
+
+	envelope section
+	<glyph glyph-name="envelope" unicode="&#xf0e0;" 
+	\Exercise 2 - Career Homepage\portfolio Html page\assets\webfonts\fa-regular-400.svg
