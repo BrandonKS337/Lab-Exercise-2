@@ -2949,3 +2949,13 @@ justify-content: space-between;
     width: 100%;
   }
 }
+
+#selfie {
+  margin-top: 2rem;
+  width: 60%;
+  /* align-items: center; */
+}
+.selfiebox {
+  display: flex;
+  justify-content: center;
+}
