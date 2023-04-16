@@ -21,6 +21,10 @@ p,
 li {
   font-size: 1rem;
 }
+/* h4 {
+  text-transform: uppercase;
+
+} */
 body {
   display: flex;
   width: auto;
@@ -45,9 +49,15 @@ aside {
   color: var(--clr-textright);
 }
 .namePlate {
-  height: 150px;
+  /* height: 150px; */
   border-bottom: 1px solid var(--clr-textright);
-  padding-bottom: 2.8rem;
+  padding: 2.8rem;
+}
+.namePlate2 {
+  /* height: 150px; */
+  border-bottom: 1px solid var(--clr-textright);
+  padding-top: 2.8rem;
+  padding-bottom: 5rem;
 }
 
 /* This is the profile photo */
@@ -140,9 +150,7 @@ li {
 } */
 
 /* This part does the same as the gap property listed inside .skillslr */
-.skillslist {
-  text-transform: uppercase;
-}
+
 
 
 .smallIcons {
@@ -173,6 +181,38 @@ h2.background {
     -15px 0 15px -15px var(--clr-bkground);
   /* shadow: 2px black; */
   margin-bottom: 5px;
+}
+/*////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 497px) and (max-width: 755px) {
+  .Education {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* border: 2px solid black; */
+    border-bottom: 1px solid var(--clr-textright);
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-bottom: 4rem;
+    margin: 0 15px 15px 0;
+  }
+  .educationlr {
+    /* border: 1px solid var(--clr-bkground); */
+    /* box-shadow: 15px 15px 15px -18px var(--clr-bkground), 
+    -18px 15px 15px -18px var(--clr-bkground),
+    15px 0 15px -18px var(--clr-bkground),
+    -18px 0 15px -18px var(--clr-bkground); */
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    padding: 10px;
+  }
+  .edLR {
+    border: 1px solid rgb(23, 6, 253);
+    display: flex;
+    /* flex-direction: column; */
+  }
 }
 /*////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 0) and (max-width: 496px) {
