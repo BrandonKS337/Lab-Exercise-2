@@ -38,7 +38,6 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 /* article Styling. Each one is a different carer on resume*/
@@ -65,7 +64,7 @@ aside {
   width: 8rem;
   border-radius: 50%;
   height: 8rem;
-  box-shadow: 0 0 10px 5px rgb(12, 92, 12)
+  box-shadow: 0 0 10px 5px rgb(12, 92, 12);
 }
 /* These are the nav bar segments */
 .icon {
@@ -89,6 +88,7 @@ aside {
   justify-content: center;
   gap: 15px;
   align-items: center;
+  position: sticky;
 }
 .nav0 {
   display: flex;
@@ -101,8 +101,13 @@ aside {
   text-align: right;
 }
 .nav5 {
-  justify-content: space-evenly;
-  margin-top: 1vh;
+  position: sticky;
+  top: 40px;
+  /* left: 0;
+  right: 0; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
 
 /* This is the main body text */
@@ -151,8 +156,6 @@ li {
 } */
 
 /* This part does the same as the gap property listed inside .skillslr */
-
-
 
 .smallIcons {
   height: 30px;
@@ -218,7 +221,7 @@ h2.background {
 /*////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (min-width: 0) and (max-width: 496px) {
   body {
-    width: 100vw;
+    width: 100%;
   }
   .left {
     /* border: 5px solid red;*/
@@ -228,9 +231,9 @@ h2.background {
     color: var(--clr-textleft);
     justify-content: center;
     justify-items: center;
-    width: 90vw;
+    width: 100%;
   }
-  /* .rightSide { */
+  .rightSide {
   /* flex-direction: column;
     color: var(--clr-textright);
     justify-content: start;
@@ -239,13 +242,18 @@ h2.background {
     margin-right: 15vw; 
     padding-left: -15px;
     margin-left: 0px; */
-  /* } */
+    width: 100%;
+  }
   .mainbody {
     flex-direction: column;
+    width: 100%;
+    max-width: none;
   }
   .Education {
     flex-direction: column;
     /* border: 1px solid rgb(19, 255, 3); */
+    width: 100%;
+
   }
   .educationlr {
     /* border: 1px solid red; */
@@ -259,13 +267,14 @@ h2.background {
     border: 1px solid rgb(23, 6, 253);
     display: flex;
     /* flex-direction: column; */
+    width: 100%;
+
   }
-  .nav5 {
-    /* margin-bottom: 0vh; */
-    margin-top: 1vh;
-    align-self: center;
-  }
+
   .nav4 {
     border-bottom: 1px solid var(--clr-textleft);
+    width: 100%;
+
   }
 }
+
