@@ -2850,6 +2850,7 @@ Narrower
 
 .resumeButton:before {
   content: "";
+  text-decoration: none;
   background: linear-gradient(
     45deg,
     #474352,
@@ -2898,6 +2899,7 @@ Narrower
   left: 0;
   top: 0;
   border-radius: 10px;
+  text-decoration: none;
 }
 /* .resumeicon { */
 /* height: 17px; */
