@@ -65,6 +65,7 @@ aside {
   width: 8rem;
   border-radius: 50%;
   height: 8rem;
+  box-shadow: 0 0 10px 5px rgb(12, 92, 12)
 }
 /* These are the nav bar segments */
 .icon {
