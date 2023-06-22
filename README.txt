@@ -53,3 +53,10 @@ Credits:
 	<glyph glyph-name="envelope" unicode="&#xf0e0;" 
 	\Exercise 2 - Career Homepage\portfolio Html page\assets\webfonts\fa-regular-400.svg
 	https://stackoverflow.com/questions/35841532/font-awesomes-unicode-not-working-in-fixed-placeholder#:~:text=You%20have%20incorrect%20unicode%20charater%20notation.%20For%20CSS,do%3A%20%26%23x%20f0e0%3B%20%3D%3E%20%20f0e0%20Try%20this%3A
+
+	attempted to play with the domain name and broke resume link i guess. Repushing to see if this fixes but may need to recreate repo and repub profile page to it.
+	https://github.com/BrandonKS337/Portfolio-Page.git
+
+
+
+	alsdghlkahdglkhaslkdghaslkhdglakshdglkh
